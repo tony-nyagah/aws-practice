@@ -1,0 +1,15 @@
+[project]
+name = "aws-practice"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Antony Nyagah", email = "tony.m.nyagah@gmail.com"},
+]
+dependencies = ["diagrams>=0.24.1", "jupyterlab>=4.3.5"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
